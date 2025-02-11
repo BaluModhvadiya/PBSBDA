@@ -16,7 +16,7 @@ app = FastAPI()
 # Allow React frontend to communicate
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],  # Allow React Frontend
+    allow_origins=["Localhost"],  # Allow frontend here either its for Dashboard.py 
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
