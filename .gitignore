@@ -1,0 +1,38 @@
+# Ignore node_modules and environment-related files
+node_modules/
+.env
+*.env
+
+# Ignore all data files and directories
+data/
+ecommerce_data/
+spark-warehouse/
+metastore_db/
+*.csv
+*.csv:Zone.Identifier
+
+# Ignore Python cache files and compiled bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore IDE/editor-specific files
+*.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.pid
+*.seed
+*.backup
+
+# Ignore compiled Tailwind output files
+output.css
+
+
+# Ignore Git-specific directories
+.git/
